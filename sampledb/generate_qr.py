@@ -24,7 +24,7 @@ env = Environment(loader=FileSystemLoader([
 
 template = env.get_template('qr_template.tex')
 
-base = 'test'
+base = 'qr'
 
 cols = 3
 rows = 10
